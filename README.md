@@ -8,7 +8,7 @@
 
 1. Install [GitHub CLI](https://cli.github.com/)
 1. Install [jq](https://stedolan.github.io/jq/download/)
-1. `gh extension install mona-actions/gh-repo-stats`
+1. `gh extension install ssieng-slalom/gh-repo-stats`
 1. `gh repo-stats --org <ORG_NAME>`
 1. Profit! 💰 💸 🤑 💸 💰
 
@@ -93,7 +93,6 @@ tinyfists,publish-packages-to-repo-demo,false,2022-12-09T03:43:31Z,2021-10-11T19
 - `isArchive`: Whether the repository is archived
 - `Repo_Size(mb)`: Size of the repository in megabytes
 - `Record_Count`: Number of database records this repository represents
-- `Collaborator_Count`: Removed due to permission requirements
 - `Protected_Branch_Count`: Number of branch protection rules on this repository
 - `PR_Review_Count`: Number of pull request reviews
 - `Milestone_Count`: Number of issue milestones
